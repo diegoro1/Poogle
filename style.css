@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  height: 100%; }
+
+body {
+  display: flex;
+  flex-direction: column; }
+
+.content {
+  flex: 1 0 auto !important; }
+
+.navbar-custom {
+  background-color: #f2f2f2;
+  border-bottom: #e4e4e4 1px solid; }
+
+.toggle-color {
+  color: #5f6368; }
+
+.nav-link {
+  color: #5f6368; }
+
+.nav-link:hover {
+  color: black; }
+
+.navbar-brand {
+  color: #243238;
+  font-weight: bold; }
+
+.navbar-brand:hover {
+  color: #243238; }
+
+#main {
+  margin: 6% auto 9.6% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center; }
+  #main #search-box {
+    display: flex;
+    align-items: center;
+    border: 2px solid #e4e4e4;
+    border-radius: 100px;
+    height: 38px;
+    width: 450px; }
+    #main #search-box #search-input {
+      border: none;
+      outline: none;
+      box-shadow: none;
+      width: 350px; }
+    #main #search-box .icon {
+      margin: 1em; }
+  #main #search-box:hover {
+    box-shadow: 2px 2px 3px #e4e4e4; }
+  #main #search-button {
+    background-color: #f2f2f2;
+    color: #5f6368;
+    border: none;
+    border-radius: 4px;
+    height: 2em;
+    width: 10em; }
+  #main .search-button {
+    background-color: #f2f2f2;
+    color: #5f6368;
+    border: none;
+    border-radius: 4px;
+    height: 2em;
+    width: 10em; }
+  #main #image-search-button {
+    background-color: #f2f2f2;
+    color: #5f6368;
+    border: none;
+    border-radius: 4px;
+    height: 2em;
+    width: 15em; }
+  #main #search-button:hover {
+    cursor: pointer;
+    border: 1px solid #e4e4e4; }
+  #main .search-button:hover {
+    cursor: pointer;
+    border: 1px solid #e4e4e4; }
+  #main #image-search-button:hover {
+    cursor: pointer;
+    border: 1px solid #e4e4e4; }
+  #main img {
+    margin: 0 100%; }
+
+#title {
+  color: #f1280a;
+  font-size: 20px;
+  min-height: 1em;
+  padding: 10px; }
+  #title p {
+    margin: 3px 0 0 3.2em; }
+
+#main-advanced {
+  margin: 6% 0 16.5% 5%; }
+  #main-advanced .search-container {
+    color: #5f6368;
+    margin: 10px 0; }
+    #main-advanced .search-container .search-input {
+      outline: none; }
+
+.search-button {
+  color: #5f6368; }
+
+footer {
+  color: #5f6368;
+  text-align: center;
+  padding: .2em;
+  background-color: #f2f2f2;
+  outline: none;
+  border: 1px solid #e4e4e4;
+  flex-shrink: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+
+.border {
+  border: solid 10px black; }
+
+/*# sourceMappingURL=style.css.map */
